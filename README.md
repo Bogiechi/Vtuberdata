@@ -2,11 +2,8 @@
 
 ## Instruction
 
-用ubuntu安裝Docker
-sudo apt-get update
-
-sudo apt-get install -y docker.io
-
-sudo usermod -aG docker username
-
-docker ps
+### 建立資料庫
+'''
+docker volume create mysql
+docker-compose -f mysql.yml up
+'''
