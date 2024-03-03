@@ -6,3 +6,6 @@
 `docker volume create mysql`
 
 `docker-compose -f mysql.yml up`
+
+### 建立API
+`poetry run uvicorn main:app --reload --port 8888`
