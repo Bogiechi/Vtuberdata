@@ -5,12 +5,12 @@
 前置作業:
 在ubuntu安裝poetry和Docker
 
-### 建立資料庫
+##### 建立資料庫
 `docker volume create mysql`
 
 `docker-compose -f mysql.yml up`
 
-### 建立API
+##### 建立API
 `poetry run uvicorn main:app --reload --port 8888`
 
 ## Purpose
