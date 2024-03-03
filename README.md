@@ -3,7 +3,7 @@
 ## Instruction
 
 ### 建立資料庫
-'''
+'''ubuntu
 docker volume create mysql
 docker-compose -f mysql.yml up
 '''
