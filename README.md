@@ -2,6 +2,9 @@
 
 ## Instruction
 
+前置作業:
+在ubuntu安裝poetry和Docker
+
 ### 建立資料庫
 `docker volume create mysql`
 
