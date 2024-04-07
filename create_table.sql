@@ -9,4 +9,5 @@ CREATE TABLE `vtuberdata`.`VtuberSC`(
     `rank` INT NOT NULL,
     `rankFluc` VARCHAR(10) NOT NULL,
     `name` VARCHAR(50) NOT NULL,
+    `date` VARCHAR(50) NOT NULL
 );
