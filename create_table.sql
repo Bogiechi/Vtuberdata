@@ -1,4 +1,4 @@
-CREATE TABLE `vtuberdata`.`VtuberSC`(
+CREATE TABLE `vtuberdata`.`VtuberSuperChat`(
     `itemId` VARCHAR(50) NOT NULL,
     `channelPlayCount` FLOAT NOT NULL,
     `subscriberCount` FLOAT NOT NULL,
