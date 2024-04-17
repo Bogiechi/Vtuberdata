@@ -4,7 +4,7 @@ CREATE TABLE `vtuberdata`.`VtuberSuperChat`(
     `channelPlayCount` FLOAT NOT NULL,
     `subscriberCount` FLOAT NOT NULL,
     `subscriberFluc` FLOAT NOT NULL,
-    `maxLiveViewer` INT NOT NULL,
+    `maxLiveViewer` VARCHAR(50) NOT NULL,
     `donationAmount` FLOAT NOT NULL,
     `donationCount` INT NOT NULL,
     `rank` INT NOT NULL,
