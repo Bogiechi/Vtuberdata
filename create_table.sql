@@ -1,3 +1,4 @@
+CREATE DATABASE `vtuberdata`;
 CREATE TABLE `vtuberdata`.`VtuberSuperChat`(
     `itemId` VARCHAR(50) NOT NULL,
     `period` VARCHAR(50) NOT NULL,
