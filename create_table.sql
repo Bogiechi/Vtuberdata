@@ -1,7 +1,7 @@
 CREATE DATABASE `vtuberdata`;
 CREATE TABLE `vtuberdata`.`VtuberSuperChat`(
     `itemId` VARCHAR(50) NOT NULL,
-    `period` INT NOT NULL,
+    `period` VARCHAR(50) NOT NULL,
     `channelPlayCount` FLOAT NOT NULL,
     `subscriberCount` FLOAT NOT NULL,
     `subscriberFluc` FLOAT NOT NULL,
