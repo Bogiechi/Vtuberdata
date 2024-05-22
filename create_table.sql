@@ -3,6 +3,7 @@ CREATE TABLE `vtuberdata`.`VtuberSuperChat`(
     `itemId` VARCHAR(50) NOT NULL,
     `period` VARCHAR(50) NOT NULL,
     `channelPlayCount` FLOAT NOT NULL,
+    `channelPlayFluc` FLOAT NOT NULL,
     `subscriberCount` FLOAT NOT NULL,
     `subscriberFluc` FLOAT NOT NULL,
     `maxLiveViewer` FLOAT NOT NULL,
